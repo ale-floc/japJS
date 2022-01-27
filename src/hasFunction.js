@@ -3,7 +3,7 @@ import { KANJI_NUMBER } from './constants';
 
 const hasHOF = func => string => {
     if (!string || string !== String(string)) return false;
-    const tmp = string.split("").map(element => func(element))
+    const tmp = [...string].map(element => func(element))
     return tmp.includes(true);
 }
 

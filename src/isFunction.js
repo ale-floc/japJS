@@ -23,7 +23,7 @@ export const isJapanese = (string, details) => {
         katakana: hasKatakana(string),
         kanji: hasKanji(string)
     } : true;
-}
+};
 
 export const isKanjiNumber = str => {
     if (!str || str !== String(str))

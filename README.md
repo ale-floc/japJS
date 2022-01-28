@@ -66,101 +66,123 @@ japJS.isKatakana("あ火"); // false
 ##
 </details>
 
-### isKana
-Takes a **string** and return **true** if the string is a kana
+<details>
+<summary><b style="font-size: 22px">isKana</b></summary>
+<br>
+<p>Takes a string and return true if the string is a kana</p>
 
 ```javascript
 japJS.isKana("アあ"); // true
 japJS.isKana("あア漢字"); // false
 ```
+##
+</details>
 
-## 
-
-### isKanji
-Takes a **string** and return **true** if the string is a kanji
+<details>
+<summary><b style="font-size: 22px">isKana</b></summary>
+<br>
+<p>Takes a string and return true if the string is a kanji</p>
 
 ```javascript
 japJS.isKanji("火漢字"); // true
 japJS.isKanji("ア"); // false
 ```
+##
+</details>
 
-## 
-
-### isJapanese
-Takes a **string** and return **true** if the string is japanese
+<details>
+<summary><b style="font-size: 22px">isJapanese</b></summary>
+<br>
+<p>Takes a string and return true if the string is a japanese</p>
 
 ```javascript
 japJS.isJapanese("あイ漢字"); // true
 japJS.isJapanese("hello"); // false
 ```
+##
+</details>
 
-## 
-
-### isKanjiNumber
-Takes a **string** and return **true** if the string is a kanji number
+<details>
+<summary><b style="font-size: 22px">isKanjiNumber</b></summary>
+<br>
+<p>Takes a string and return true if the string is a kanji number</p>
 
 ```javascript
 japJS.isKanjiNumber("一五七"); // true
 japJS.isKanjiNumber("三あ"); // false
 japJS.isKanjiNumber(123); // false
 ```
+##
+</details>
 
-## 
-
-### hasHiragana
-Takes a **string** and return **true** if the string contains a hiragana
+<details>
+<summary><b style="font-size: 22px">hasHiragana</b></summary>
+<br>
+<p>Takes a string and return true if the string contains a hiragana</p>
 
 ```javascript
 japJS.hasHiragana("あ"); // true
 japJS.hasHiragana("ア"); // false
 ```
+##
+</details>
 
-## 
-
-### hasKatakana
-Takes a **string** and return **true** if the string contains a katakana
+<details>
+<summary><b style="font-size: 22px">hasKatakana</b></summary>
+<br>
+<p>Takes a string and return true if the string contains a katakana</p>
 
 ```javascript
 japJS.hasKatakana("ア"); // true
 japJS.hasKatakana("あ"); // false
 ```
+##
+</details>
 
-## 
-
-### hasKana
-Takes a **string** and return **true** if the string contains a kana
+<details>
+<summary><b style="font-size: 22px">hasKana</b></summary>
+<br>
+<p>Takes a string and return true if the string contains a kana</p>
 
 ```javascript
 japJS.hasKana("私はアルノです"); // true
 japJS.hasKana("字"); // false
 ```
+##
+</details>
 
-## 
-
-### hasKanji
-Takes a **string** and return **true** if the string contains a kanji
+<details>
+<summary><b style="font-size: 22px">hasKanji</b></summary>
+<br>
+<p>Takes a string and return true if the string contains a kanji</p>
 
 ```javascript
 japJS.hasKanji("私は猫です"); // true
 japJS.hasKanji("アあ"); // false
 ```
+##
+</details>
 
-## 
-
-### hasKanjiNumber
-Takes a **string** and return **true** if the string is contains kanji number
+<details>
+<summary><b style="font-size: 22px">hasKanjiNumber</b></summary>
+<br>
+<p>Takes a string and return true if the string contains a kanji number</p>
 
 ```javascript
 japJS.hasKanjiNumber("あhello五"); // true
 japJS.hasKanjiNumber("あhello"); // false
 ```
+##
+</details>
 
-## 
-
-### hasJapanese
-Takes a **string** and return **true** if the string contains japanese
+<details>
+<summary><b style="font-size: 22px">hasJapanese</b></summary>
+<br>
+<p>Takes a string and return true if the string contains japanese</p>
 
 ```javascript
 japJS.hasJapanese("字hello"); // true
 japJS.hasJapanese("hello"); // false
 ```
+##
+</details>

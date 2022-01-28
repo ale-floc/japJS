@@ -79,7 +79,7 @@ japJS.isKana("あア漢字"); // false
 </details>
 
 <details>
-<summary><b style="font-size: 22px">isKana</b></summary>
+<summary><b style="font-size: 22px">isKanji</b></summary>
 <br>
 <p>Takes a string and return true if the string is a kanji</p>
 

@@ -103,6 +103,18 @@ japJS.isJapanese("hello"); // false
 </details>
 
 <details>
+<summary><b style="font-size: 22px">isJoyoKanji</b></summary>
+<br>
+<p>Takes a string and return true if every character of the string is a kanji on a list of 2,136 common characters : <a href="https://en.wikipedia.org/wiki/J%C5%8Dy%C5%8D_kanji">wiki</a></p>
+
+```javascript
+japJS.isJoyoKanji("漢字"); // true
+japJS.isJoyoKanji("鮭"); // false
+```
+##
+</details>
+
+<details>
 <summary><b style="font-size: 22px">isKanjiNumber</b></summary>
 <br>
 <p>Takes a string and return true if the string is a kanji number</p>
@@ -183,6 +195,18 @@ japJS.hasKanjiNumber("あhello"); // false
 ```javascript
 japJS.hasJapanese("字hello"); // true
 japJS.hasJapanese("hello"); // false
+```
+##
+</details>
+
+<details>
+<summary><b style="font-size: 22px">hasJoyoKanji</b></summary>
+<br>
+<p>Takes a string and return true if the string contains kanji on a list of 2,136 common characters : <a href="https://en.wikipedia.org/wiki/J%C5%8Dy%C5%8D_kanji">wiki</a></p>
+
+```javascript
+japJS.hasJoyoKanji("鮭漢字"); // true
+japJS.hasJoyoKanji("鮭"); // false
 ```
 ##
 </details>

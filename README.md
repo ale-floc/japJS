@@ -1,10 +1,13 @@
-# JapJS
+<p align="center">
+<h1 align="center">JapJS</h1>
+<p align="center">JapJS is a Javascript utility library for Japanese text converting, detecting and more.</p>
 
 ## Installation
 
 ```bash
 npm install jap-js
-// or
+```
+```bash
 yarn add jap-js
 ```
 
@@ -19,36 +22,49 @@ import { isHiragana, hasKanji } from 'jap-js';
 
 ## API
 
-### kanjiDetails
-Takes one or more kanji and returns all the details of it
+
+
+<details>
+<summary><b style="font-size: 22px">kanjiDetails</b></summary>
+<br>
+<p>Takes one or more kanji and returns all the details of it</p>
 
 ```javascript
-japJS.kanjiDetails("火") // { character: '火', freq: '574', grade: 1, jlpt: 5, stroke: 4...}
-japJS.kanjiDetails("火", "jlpt") // 5
-japJS.kanjiDetails(["火", "家"], { jlpt: true, grade: true }) // [ { jlpt: 5, grade: 2 }, { jlpt: 4, grade: 2 } ]
+japJS.kanjiDetails("火") 
+// { character: '火', freq: '574', grade: 1, jlpt: 5, stroke: 4...}
+
+japJS.kanjiDetails("火", "jlpt") 
+// 5
+
+japJS.kanjiDetails(["火", "家"], { jlpt: true, grade: true })
+// [ { jlpt: 5, grade: 2 }, { jlpt: 4, grade: 2 } ]
 ```
+##
+</details>
 
-## 
-
-### isHiragana
-Takes a **string** and return **true** if the string is a hiragana
+<details>
+<summary><b style="font-size: 22px">isHiragana</b></summary>
+<br>
+<p>Takes a string and return true if the string is a hiragana</p>
 
 ```javascript
 japJS.isHiragana("あう"); // true
 japJS.isHiragana("火"); // false
 ```
+##
+</details>
 
-## 
-
-### isKatakana
-Takes a **string** and return **true** if the string is a katakana
+<details>
+<summary><b style="font-size: 22px">isKatakana</b></summary>
+<br>
+<p>Takes a string and return true if the string is a katakana</p>
 
 ```javascript
 japJS.isKatakana("アイウ"); // true
 japJS.isKatakana("あ火"); // false
 ```
-
-## 
+##
+</details>
 
 ### isKana
 Takes a **string** and return **true** if the string is a kana

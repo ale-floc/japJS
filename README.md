@@ -22,6 +22,36 @@ import { isHiragana, hasKanji } from 'jap-js';
 
 ## API
 
+<details>
+<summary><b style="font-size: 22px">toHiragana</b></summary>
+<br>
+<p>Take a string and return a string converted from katakana to hiragana</p>
+
+```javascript
+japJS.toHiragana("ア");
+// か
+
+japJS.toHiragana("hello ア 火");
+// hello か 火
+```
+##
+
+</details>
+
+<details>
+<summary><b style="font-size: 22px">toKatakana</b></summary>
+<br>
+<p>Take a string and return a string converted from hiragana to katakana</p>
+
+```javascript
+japJS.toKatakana("か");
+// ア
+
+japJS.toKatakana("hello か 火");
+// hello ア 火
+```
+##
+</details>
 
 
 <details>

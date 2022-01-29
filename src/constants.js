@@ -17,4 +17,7 @@ export const HIRAGANA_CONVERT = {
     "秭": "し", "穣": "じょう", "300": "さんびゃく", "600": "ろっぴゃく", "800": "はっぴゃく", "3000": "さんぜん", "8000": "はっせん", "01000": "いっせん"
 };
 
+export const HIRAGANA_HEX = 0x3041;
+export const KATAKANA_HEX = 0x30a1;
+
 export const KEY_CONVERT = { "kanji": KANJI_CONVERT, "hiragana": HIRAGANA_CONVERT, "romaji": ROMAJI_CONVERT };

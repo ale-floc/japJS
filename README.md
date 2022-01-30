@@ -28,10 +28,10 @@ import { isHiragana, hasKanji } from 'jap-js';
 <p>Take a string and return a string converted from katakana to hiragana</p>
 
 ```javascript
-japJS.toHiragana("ア");
+japJS.toHiragana("カ");
 // か
 
-japJS.toHiragana("hello ア 火");
+japJS.toHiragana("hello カ 火");
 // hello か 火
 ```
 ##
@@ -45,10 +45,10 @@ japJS.toHiragana("hello ア 火");
 
 ```javascript
 japJS.toKatakana("か");
-// ア
+// カ
 
 japJS.toKatakana("hello か 火");
-// hello ア 火
+// hello カ 火
 ```
 ##
 </details>

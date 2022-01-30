@@ -240,3 +240,34 @@ japJS.hasJoyoKanji("鮭"); // false
 ```
 ##
 </details>
+
+<details>
+<summary><b style="font-size: 22px">toHalfWidth</b></summary>
+<br>
+<p>Take a string and return a string converted from Full Width to Half Width : <a href="https://en.wikipedia.org/wiki/Halfwidth_and_fullwidth_forms">wiki</a></p>
+
+```javascript
+japJS.toHalfWidth("ｈｅｌｌｏ");
+// hello
+
+japJS.toHalfWidth("ｉ　ａｍ　ｈａｌｆ　ｗｉｄｔｈ　ｓｔｒｉｎｇ");
+// i am half width string
+```
+##
+
+</details>
+
+<details>
+<summary><b style="font-size: 22px">toFullWidth</b></summary>
+<br>
+<p>Take a string and return a string converted from Half Width to Full Width : <a href="https://en.wikipedia.org/wiki/Halfwidth_and_fullwidth_forms">wiki</a></p>
+
+```javascript
+japJS.toFullWidth("hello");
+// ｈｅｌｌｏ
+
+japJS.toFullWidth("i am half width string");
+// ｉ　ａｍ　ｈａｌｆ　ｗｉｄｔｈ　ｓｔｒｉｎｇ
+```
+##
+</details>

@@ -271,3 +271,33 @@ japJS.toFullWidth("i am half width string");
 ```
 ##
 </details>
+
+<details>
+<summary><b style="font-size: 22px">getHiragana</b></summary>
+<br>
+<p>Take a string and return an array of hiragana containing in the string</p>
+
+```javascript
+japJS.getHiragana("あhello五");
+// ['あ']
+
+japJS.getHiragana("helloひらがな123");
+// ['ひ', 'ら', 'が', 'な']
+```
+##
+</details>
+
+<details>
+<summary><b style="font-size: 22px">getKatakana</b></summary>
+<br>
+<p>Take a string and return an array of katakana containing in the string</p>
+
+```javascript
+japJS.getKatakana("カタhello五");
+// ['カ', 'タ']
+
+japJS.getKatakana("helloカタカナ123");
+// ['カ', 'タ', 'カ', 'ナ']
+```
+##
+</details>
